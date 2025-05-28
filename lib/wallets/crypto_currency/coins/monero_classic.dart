@@ -102,7 +102,7 @@ class MoneroClassic extends CryptonoteCurrency {
   int get defaultSeedPhraseLength => 16;
 
   @override
-  int get fractionDigits => 12;
+  int get fractionDigits => 11;
 
   @override
   bool get hasBuySupport => false;
@@ -114,7 +114,7 @@ class MoneroClassic extends CryptonoteCurrency {
   List<int> get possibleMnemonicLengths => [defaultSeedPhraseLength, 25];
 
   @override
-  BigInt get satsPerCoin => BigInt.from(1000000000000);
+  BigInt get satsPerCoin => BigInt.from(100000000000);
 
   @override
   int get targetBlockTimeSeconds => 120;
