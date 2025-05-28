@@ -15,6 +15,7 @@ export 'coins/ethereum.dart';
 export 'coins/firo.dart';
 export 'coins/litecoin.dart';
 export 'coins/monero.dart';
+export 'coins/monero_classic.dart';
 export 'coins/namecoin.dart';
 export 'coins/nano.dart';
 export 'coins/particl.dart';

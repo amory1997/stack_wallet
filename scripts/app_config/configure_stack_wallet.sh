@@ -54,6 +54,7 @@ const ({String light, String dark})? _appIconAsset = null;
 final List<CryptoCurrency> _supportedCoins = List.unmodifiable([
   Bitcoin(CryptoCurrencyNetwork.main),
   Monero(CryptoCurrencyNetwork.main),
+  MoneroClassic(CryptoCurrencyNetwork.main),
   Banano(CryptoCurrencyNetwork.main),
   Bitcoincash(CryptoCurrencyNetwork.main),
   BitcoinFrost(CryptoCurrencyNetwork.main),
